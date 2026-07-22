@@ -1,0 +1,23 @@
+.gitignore
+  s_5b19ca9a67cbad::t_b01b02d4d0b865 1-3
+README.md
+  s_5b19ca9a67cbad::t_82371e33f93b10 1-40
+evals/evals.json
+  s_5b19ca9a67cbad::t_4d36a95f279cc9 1-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "376f7ae6be44cc0d90f48b7595da37a029b7ae96",
+  "prompts": {},
+  "sessions": {
+    "s_5b19ca9a67cbad": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "77287eba-5af5-432c-b1e0-ee017ac39065",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "sayed <sayed.moin.85@gmail.com>"
+    }
+  }
+}
