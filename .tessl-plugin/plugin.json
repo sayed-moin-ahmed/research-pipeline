@@ -1,0 +1,8 @@
+{
+  "name": "sayed/research-pipeline",
+  "description": "Produce a rigorous, verified, fully-cited research report on ANY topic by running a disciplined five-stage pipeline: CLARIFY the question, PLAN (an editable research plan), FAN-OUT parallel search subagents, VERIFY every key claim (cross-source + adversarial + cross-model), then SYNTHESIZE a cited report. Use this WHENEVER the user wants real research rather than a quick answer — \"research X\", \"do a deep dive on Y\", \"write me a report / brief / literature review on Z\", \"compare A vs B and back it with sources\", \"what's the state of the art in …\", \"investigate …\", \"find evidence for/against …\", \"give me a market/landscape/competitor analysis\", or any question where being wrong is costly and the answer needs citations. Trigger even when the user does not say the word \"research\" but clearly needs multi-source, fact-checked, cited output. This is the general-topic web-research orchestrator — not the codebase-to-wiki `deep-research` skill. For a fast single-fact lookup, answer directly instead.",
+  "skills": [
+    "."
+  ],
+  "version": "0.1.0"
+}
