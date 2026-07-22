@@ -1,0 +1,19 @@
+.tessl-plugin/plugin.json
+  s_5b19ca9a67cbad::t_e45b2ba13c3b0c 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "964a541c1e381546df4fb62cf5e2a156de39baa9",
+  "prompts": {},
+  "sessions": {
+    "s_5b19ca9a67cbad": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "77287eba-5af5-432c-b1e0-ee017ac39065",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "sayed <sayed.moin.85@gmail.com>"
+    }
+  }
+}
