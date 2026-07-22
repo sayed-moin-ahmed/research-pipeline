@@ -1,0 +1,46 @@
+{
+  "skill_name": "research-pipeline",
+  "evals": [
+    {
+      "id": 0,
+      "name": "compare-analytics-db",
+      "prompt": "Compare ClickHouse vs Apache Druid vs StarRocks for powering high-cardinality, real-time event analytics dashboards (sub-second queries) at a mid-size B2B SaaS. I need a cited recommendation I can show my team.",
+      "expected_output": "A cited report following the report template: exec summary with a clear recommendation, key findings each with inline citations to real fetched sources, a section on tradeoffs/where sources disagree, and a Sources list of URLs that were actually fetched.",
+      "files": [],
+      "assertions": [
+        "Covers all three systems (ClickHouse, Druid, StarRocks)",
+        "Gives a clear recommendation (a winner or an explicit conditional recommendation)",
+        "Has a Sources section listing >=3 distinct real URLs",
+        "Uses inline citation markers tied to claims (not a bare link dump)",
+        "Has a tradeoffs / where-sources-disagree / caveats section",
+        "Has an executive summary that leads with the answer"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "health-evidence-brief",
+      "prompt": "Give me a cited research brief on whether creatine supplementation improves cognitive performance in healthy adults. Be honest about how strong the evidence actually is.",
+      "expected_output": "A cited brief that synthesizes primary sources, characterizes evidence strength, surfaces disagreement, separates evidence from inference, and flags weak/single-source claims. Real fetched citations only.",
+      "files": [],
+      "assertions": [
+        "Cites primary/authoritative sources (studies, meta-analyses, or reviews) with >=3 real URLs",
+        "Explicitly characterizes strength of evidence (e.g. limited / mixed / moderate / strong)",
+        "Notes disagreement or heterogeneity across studies rather than one-sided claims",
+        "Separates what evidence shows from inference, or flags weak/single-source claims",
+        "Uses inline citations tied to specific claims"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "clarify-underspecified",
+      "prompt": "research the best programming language for me",
+      "expected_output": "The skill's CLARIFY stage: 2-3 targeted scoping questions rather than a generic from-memory answer or an immediate full search.",
+      "files": [],
+      "assertions": [
+        "Asks clarifying questions rather than producing a full ranked answer",
+        "Questions target scope/use-case/constraints/experience level (2-3 targeted questions)",
+        "Does NOT immediately dump a generic from-memory 'top languages' list as the final answer"
+      ]
+    }
+  ]
+}
