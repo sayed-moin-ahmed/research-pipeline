@@ -1,0 +1,23 @@
+references/evidence-standards.md
+  s_a43ebc44786aff::t_1e610667e5ce61 16
+  s_a43ebc44786aff::t_69a23ed372253c 12-13
+references/playbook.md
+  s_a43ebc44786aff::t_1a7eb8724438a6 100-117
+  s_a43ebc44786aff::t_ef92a2aeee5d18 118-130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "010a708e3a57158813279176b0c6eb3520a90aa9",
+  "prompts": {},
+  "sessions": {
+    "s_a43ebc44786aff": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "92339dde-0df4-49cf-b677-d0e6b04ea819",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "sayed <sayed.moin.85@gmail.com>"
+    }
+  }
+}
