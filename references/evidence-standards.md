@@ -9,11 +9,11 @@ shared research brief so every worker applies the same bar.
 
 | Domain | Evidence ladder (prefer higher) | Watch out for |
 |---|---|---|
-| **Medicine / health** | Systematic reviews & meta-analyses → large RCTs → small RCTs → cohort/observational → case reports → expert opinion. Regulatory assessments (EFSA/FDA) are strong. | Single small studies overhyped in press; industry-funded trials; healthy-user bias; surrogate endpoints. |
-| **Science / engineering** | Peer-reviewed replications → peer-reviewed primary → preprints (arXiv) → reputable technical blogs → vendor docs. | Preprints ≠ peer-reviewed; irreproducible single results; benchmarks run by the seller. |
+| **Medicine / health** | Systematic reviews & meta-analyses → large RCTs → small RCTs → cohort/observational → case reports → expert opinion. Regulatory assessments (EFSA/FDA) are strong. Discover papers with Elicit's systematic-review flow (`elicit.com/solutions/systematic-review`) / Consensus / PubMed, then read the primary source. | Single small studies overhyped in press; industry-funded trials; healthy-user bias; surrogate endpoints; citing an aggregator's summary instead of the paper. |
+| **Science / engineering** | Peer-reviewed replications → peer-reviewed primary → preprints (arXiv) → reputable technical blogs → vendor docs. Use Elicit / Semantic Scholar / arXiv for discovery, then open the paper itself. | Preprints ≠ peer-reviewed; irreproducible single results; benchmarks run by the seller. |
 | **Companies / markets** | Regulatory filings (10-K/S-1) → audited financials → reputable financial press → analyst notes → company blog/PR. | PR framing; TAM inflation; paid "research"; numbers with no defined methodology. |
 | **Law / policy** | Statutes & the ruling text itself → official regulator guidance → law-firm analysis → news. Jurisdiction + currentness are decisive. | Outdated/overturned rulings; wrong jurisdiction; secondary summaries that drop nuance. Not legal advice. |
-| **Software / tech choice** | Official docs & source code → neutral benchmarks (methodology published) → named production case studies → practitioner posts → vendor benchmarks. | Vendor-vs-vendor benchmarks (label the affiliation); version drift; benchmark ≠ your workload. |
+| **Software / tech choice** | Official docs & source code → neutral benchmarks (methodology published) → named production case studies → practitioner posts → vendor benchmarks. Reach docs via Context7 MCP, read source on GitHub, prefer published-methodology benchmarks (e.g. TechEmpower). | Vendor-vs-vendor benchmarks (label the affiliation); version drift; benchmark ≠ your workload. |
 | **News / current events** | Primary documents & on-record statements → multiple independent outlets → single outlet → social media. | Single-source scoops; syndication counted as corroboration; anonymous claims. |
 
 When a topic spans domains, apply each domain's ladder to its part.

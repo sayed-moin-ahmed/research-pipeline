@@ -97,6 +97,37 @@ worker surfaced.
 `status` starts as the worker's estimate and is finalized in VERIFY. `verify_citations.py` reads this file
 to check the report cites only real ledger rows with non-empty passages.
 
+### Specialized search tools (domain shortcuts)
+
+Generic web search misses most of the academic literature. For **medicine / science / any scholarly
+thread**, point the worker at a paper-aware tool before falling back to web search:
+
+- **Elicit** (`elicit.com`, systematic-review flow: `elicit.com/solutions/systematic-review`) — AI
+  research assistant over ~125M+ papers that automates the systematic-review loop: find → screen →
+  extract findings into a structured, per-paper table with citations. Use it to *discover and triage*
+  the literature and to surface candidate papers fast.
+- Siblings worth naming in the plan: **Consensus** (claim-level synthesis across papers),
+  **Semantic Scholar** / **PubMed / PMC** / **arXiv** (open-access primary sources), **Google Scholar**.
+
+Discipline (keeps the ledger honest): treat these as **discovery + triage**, not as a citable source.
+An Elicit/Consensus extraction is a *pointer* — the worker must still open the primary paper with
+WebFetch and quote the actual passage into the ledger. Never enter a claim whose `passage`/`url` is the
+aggregator's summary instead of the paper itself. Flag when a key paper was paywalled and only its
+abstract was reachable.
+
+For **software / engineering / tech-choice threads** the discovery targets are different — docs, source,
+and benchmarks, not literature:
+
+- **Context7 MCP** — current library/framework/SDK/CLI docs; prefer it over generic web search for API
+  syntax, config, and version-migration questions. (`resolve-library-id` → `query-docs`.)
+- **GitHub code search** — read the actual implementation, releases, changelogs, and issue threads.
+- **Neutral benchmarks with published methodology** (e.g. TechEmpower) and **named production case
+  studies** — over vendor-run benchmarks.
+
+Here the discipline inverts: docs and source code **are** the primary source (top of the ladder), so cite
+them directly. It's the practitioner blogs and vendor benchmarks that get demoted — corroborate them and
+label the affiliation, and always pin the version, since docs drift release to release.
+
 ### Handling links found mid-search
 
 If a worker surfaces a high-value source outside its thread (e.g. a dataset relevant to another
